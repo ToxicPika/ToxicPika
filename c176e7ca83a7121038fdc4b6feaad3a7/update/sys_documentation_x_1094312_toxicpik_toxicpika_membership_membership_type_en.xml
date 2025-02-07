@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="membership_type" label="Membership Type" language="en" table="x_1094312_toxicpik_toxicpika_membership">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>membership_type</element>
+            <help/>
+            <hint/>
+            <label>Membership Type</label>
+            <language>en</language>
+            <name>x_1094312_toxicpik_toxicpika_membership</name>
+            <plural>Membership Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Imran_Shahzad</sys_created_by>
+            <sys_created_on>2025-02-07 22:25:59</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Membership Type</sys_name>
+            <sys_package display_value="ToxicPika" source="x_1094312_toxicpik">c176e7ca83a7121038fdc4b6feaad3a7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ToxicPika">c176e7ca83a7121038fdc4b6feaad3a7</sys_scope>
+            <sys_update_name>sys_documentation_x_1094312_toxicpik_toxicpika_membership_membership_type_en</sys_update_name>
+            <sys_updated_by>Imran_Shahzad</sys_updated_by>
+            <sys_updated_on>2025-02-07 22:25:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a1596f0a832b121038fdc4b6feaad3ac" label="ToxicPika Membership" max_length="40" name="x_1094312_toxicpik_toxicpika_membership" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="expiration_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Joined Date" mandatory="true" max_length="40" name="joined_date" type="glide_date"/>
+        <element label="Membership ID" mandatory="true" max_length="40" name="membership_id" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inactive" value="inactive"/>
+                <element inactive_on_update="false" label="Active" value="active"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Membership Type" mandatory="true" max_length="40" name="membership_type" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
